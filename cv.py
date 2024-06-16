@@ -40,10 +40,10 @@ experience = [
         "Improved data processing performance and developed behavioral models for the security research team."
     ], False),
     ("2012-2016: Software Engineer - Megabridge", [
-        "Developed a video monitoring and control system for HLS, including hardware module verification and low-level embedded firmware development for ARM-based processors, Freescale Power PC, and 8-bit ATMEGA micro-controllers.",
-        "Designed and developed drivers and significant parts of the firmware for the BDSL product line and Java-based web management for the BDSL.",
-        "Led bring-up projects: Windows CE on PXA255 (ARM) board, Linux on multiple HW platforms (Atmel SAMA5D3x and OMAP L138 CPUs), customization of Linux root file systems using Yocto, and VxWorks on custom PPC boards.",
-        "Defined and set up the company's automatic build infrastructure, continuous integration system, and knowledge database."
+        "Developed a video monitoring and control system for HLS, including hardware verification and low-level embedded firmware development.",
+        "Designed drivers and significant firmware components for the BDSL product line, including Java-based web management.",
+        "Led bring-up projects for various HW platforms, customizing Linux root file systems using Yocto.",
+        "Established the company's automatic build infrastructure and continuous integration system."
     ], False),
     ("2009-2012: Software Engineer - Texas Instruments", [
         "Developed firmware for 802.11 ASIC, including pre and post-silicon verification of WLAN devices.",
