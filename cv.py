@@ -81,7 +81,7 @@ doc.add_paragraph(
 )
 
 # Save the document
-file_path = '/mnt/data/Arkady_Miasnikov_CV_Updated.docx'
+file_path = './Arkady_Miasnikov_CV_Updated.docx'
 doc.save(file_path)
 
 file_path
