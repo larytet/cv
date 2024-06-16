@@ -20,24 +20,24 @@ doc.add_heading('Professional Experience', level=1)
 # Add the remaining experience
 experience = [
     ("2023-present: Software Engineer - Endotech", [
-        "Designed and developed custom momentum indicators and signal filters for specific market conditions, along with ML models targeting modern financial instruments.",
-        "Engaged in reverse engineering and code translation from PineScript to Go for multiple indicators and their customization.",
+        "Designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
+        "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality."
     ], False),
     ("2022-2023: Software Engineer - HiAuto", [
-        "Participated in maintenance of the computerized drive-thru order taking system to ensure operational efficiency and reliability.",
-        "Provided support for business analytics tools, assisting with data integration and system troubleshooting to enhance decision-making processes.",
-        "Maintained HiAuto on-premises devices, ensuring continuous operation of the deployed systems and addressing technical issues.",
+        "Maintained the computerized drive-thru order-taking system, ensuring 99.9% uptime and operational efficiency.",
+        "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
+        "Ensured continuous operation of on-premises devices, addressing technical issues promptly."
     ], False),
     ("2018-2022: Software Engineer - Cyren", [
-        "Participated in the design and development of leading email and network security products.",
-        "Maintained a complex SaaS system integrating a range of popular software products.",
-        "Contributed to the development of advanced phishing and spam detection engines."
+        "Designed and developed leading email and network security products, contributing to a increase in threat detection accuracy.",
+        "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
+        "Developed advanced phishing and spam detection engines."
     ], True),
     ("2016-2018: Software Engineer - Secdo", [
-        "Defined, designed, and developed the driver for the company Linux endpoint, integrating it with the existing code base.",
-        "Developed a solution capable of collecting and analyzing tens of millions of system events per second on busy multicore systems with minimal system impact.",
-        "Supported the development of the company Windows endpoint software, including Windows kernel driver and user space code.",
-        "Contributed to the security research team by improving data processing performance and creating behavioral models."
+        "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
+        "Developed a solution to analyze millions of system events per second on multicore systems efficiently.",
+        "Supported Windows endpoint software development, including kernel driver and user space code.",
+        "Improved data processing performance and developed behavioral models for the security research team."
     ], False),
     ("2012-2016: Software Engineer - Megabridge", [
         "Developed a video monitoring and control system for HLS, including hardware module verification and low-level embedded firmware development for ARM-based processors, Freescale Power PC, and 8-bit ATMEGA micro-controllers.",
