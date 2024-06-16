@@ -1,3 +1,5 @@
+from docx import Document
+
 # Create a new Document with the updated order
 doc = Document()
 
@@ -6,10 +8,12 @@ doc.add_heading('Arkady Miasnikov', 0)
 doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 
 doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
-doc.add_paragraph('Expertise in design and development of mission-critical real-time systems, firmware, multi-threaded applications, automated trading platforms, and web-based applications.\n'
-                  'Practiced in pre-sales and post-sales support of Tier 1 telecom companies in Europe and North America.\n'
-                  'Technology-savvy with a broad business perspective, good interpersonal relations, and high attention to detail.\n'
-                  'Tools & Technologies: Linux, Go, Python, C, C++11/14')
+doc.add_paragraph(
+    'Expertise in design and development of mission-critical real-time systems, firmware, multi-threaded applications, automated trading platforms, and web-based applications.\n'
+    'Practiced in pre-sales and post-sales support of Tier 1 telecom companies in Europe and North America.\n'
+    'Technology-savvy with a broad business perspective, good interpersonal relations, and high attention to detail.\n'
+    'Tools & Technologies: Linux, Go, Python, C, C++11/14'
+)
 
 doc.add_heading('Professional Experience', level=1)
 
@@ -70,9 +74,11 @@ for position, details in experience:
         doc.add_paragraph(detail, style='List Bullet')
 
 doc.add_heading('Education', level=1)
-doc.add_paragraph('Software Practical Engineer - Tel Aviv University School of Practical Engineering\n'
-                  'B.A. in Business Administration - Netanya Academic College (2007-2009)\n'
-                  'Physics Department - St. Petersburg State University (1987-1989)')
+doc.add_paragraph(
+    'Software Practical Engineer - Tel Aviv University School of Practical Engineering\n'
+    'B.A. in Business Administration - Netanya Academic College (2007-2009)\n'
+    'Physics Department - St. Petersburg State University (1987-1989)'
+)
 
 # Save the document
 file_path = '/mnt/data/Arkady_Miasnikov_CV_Updated.docx'
