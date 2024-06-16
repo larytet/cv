@@ -77,8 +77,8 @@ for position, details, page_break in experience:
 
 doc.add_heading('Education', level=1)
 doc.add_paragraph(
-    'Software Practical Engineer - Tel Aviv University School of Practical Engineering\n'
     'B.A. in Business Administration - Netanya Academic College (2007-2009)\n'
+    'Software Practical Engineer - Tel Aviv University School of Practical Engineering\n'
     'Physics Department - St. Petersburg State University (1987-1989)'
 )
 
