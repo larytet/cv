@@ -20,16 +20,17 @@ doc.add_heading('Professional Experience', level=1)
 # Add the remaining experience
 experience = [
     ("2023-present: Software Engineer - Endotech", [
-        "Designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
-        "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality."
+        "Collaboratively designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
+        "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality.",
+        "Developed indicators that are a central part of the company's trading algorithms."
     ], False),
     ("2022-2023: Software Engineer - HiAuto", [
-        "Maintained the computerized drive-thru order-taking system, ensuring 99.9% uptime and operational efficiency.",
+        "Participated in the maintenance of the computerized drive-thru order-taking system as part of an international team to ensure operational efficiency and reliability.",
         "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
         "Ensured continuous operation of on-premises devices, addressing technical issues promptly."
     ], False),
     ("2018-2022: Software Engineer - Cyren", [
-        "Designed and developed leading email and network security products, contributing to a increase in threat detection accuracy.",
+        "Participated in the collaborative design and development of email and network security products, contributing to a increase in threat detection accuracy.",
         "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
         "Developed advanced phishing and spam detection engines."
     ], True),
