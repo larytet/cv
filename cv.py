@@ -32,7 +32,8 @@ experience = [
     ("2018-2022: Software Engineer - Cyren", [
         "Participated in the collaborative design and development of email and network security products, contributing to a increase in threat detection accuracy.",
         "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
-        "Developed advanced phishing and spam detection engines."
+        "Developed advanced phishing and spam detection engines.",
+        "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
     ], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
