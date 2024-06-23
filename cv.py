@@ -53,21 +53,21 @@ experience = [
         "Led a streamlining process that improved productivity by 30% by advocating the replacement of ClearCase with GIT.",
         "Established a wiki-based search system that improved access to the company's knowledge base."
     ], False),
-    ("2005-2007: Software Engineer - Broadlight Ltd.", [
-        "Contributed to the development of the world's first fully integrated GPON chip.",
-        "Supported the hardware team in post-production verification and pre-fab processes.",
-        "Prepared firmware for design verification, post-production chip verification, and a series of drivers."
-    ], True),
-    ("2001-2004: Software Engineer - Terayon Israel/USA", [
-        "Led a team of 5 engineers in the design and development of DSLAM systems, INTERCARD communication BSP for vxWorks, and various hardware drivers.",
-        "Delivered customer-tailored systems, some of which are still in operation.",
-        "Conducted employee training programs."
-    ], False),
-    ("1995-2000: Software Engineer - TDSoft", [
-        "Developed infrastructures and low-level drivers for embedded real-time systems in C, C++, and Java.",
-        "Participated in several development projects, including a Windows management system for strategic customers such as Deutsche Telekom and ECI.",
-        "Designed and implemented significant parts of a V5 Class 5 switch (LE) simulator with ISDN support and developed GUI management for the simulator."
-    ], False)
+    # ("2005-2007: Software Engineer - Broadlight Ltd.", [
+    #     "Contributed to the development of the world's first fully integrated GPON chip.",
+    #     "Supported the hardware team in post-production verification and pre-fab processes.",
+    #     "Prepared firmware for design verification, post-production chip verification, and a series of drivers."
+    # ], True),
+    # ("2001-2004: Software Engineer - Terayon Israel/USA", [
+    #     "Led a team of 5 engineers in the design and development of DSLAM systems, INTERCARD communication BSP for vxWorks, and various hardware drivers.",
+    #     "Delivered customer-tailored systems, some of which are still in operation.",
+    #     "Conducted employee training programs."
+    # ], False),
+    # ("1995-2000: Software Engineer - TDSoft", [
+    #     "Developed infrastructures and low-level drivers for embedded real-time systems in C, C++, and Java.",
+    #     "Participated in several development projects, including a Windows management system for strategic customers such as Deutsche Telekom and ECI.",
+    #     "Designed and implemented significant parts of a V5 Class 5 switch (LE) simulator with ISDN support and developed GUI management for the simulator."
+    # ], False)
 ]
 
 for position, details, page_break in experience:
