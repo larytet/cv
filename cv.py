@@ -97,7 +97,10 @@ pypandoc.convert_file(
     'pdf',
     outputfile=pdf_path,
     extra_args=[
-        '-V', 'geometry:margin=1in'  # Adjust the margin size here
+       '-V', 'geometry:top=0.5in',
+       '-V', 'geometry:bottom=1in',
+       '-V', 'geometry:left=1in',  
+       '-V', 'geometry:right=1in'  
     ]
 )
 
