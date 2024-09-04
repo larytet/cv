@@ -1,5 +1,7 @@
 from docx import Document
 import pypandoc
+from docx2pdf import convert
+
 
 # Create a new Document with the updated order
 doc = Document()
@@ -90,6 +92,13 @@ file_path = './Arkady_Miasnikov_CV_Updated.docx'
 doc.save(file_path)
 
 pdf_path = file_path.replace('.docx', '.pdf')
-pypandoc.convert_file(file_path, 'pdf', outputfile=pdf_path)
+pypandoc.convert_file(
+    file_path,
+    'pdf',
+    outputfile=pdf_path,
+    extra_args=[
+        '-V', 'geometry:margin=1in'  # Adjust the margin size here
+    ]
+)
 
 file_path
