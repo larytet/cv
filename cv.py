@@ -1,4 +1,5 @@
 from docx import Document
+import pypandoc
 
 # Create a new Document with the updated order
 doc = Document()
@@ -87,5 +88,8 @@ doc.add_paragraph(
 # Save the document
 file_path = './Arkady_Miasnikov_CV_Updated.docx'
 doc.save(file_path)
+
+pdf_path = file_path.replace('.docx', '.pdf')
+pypandoc.convert_file(file_path, 'pdf', outputfile=pdf_path)
 
 file_path

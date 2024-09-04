@@ -1,1 +1,4 @@
 python-docx
+pypandoc
+docx2pdf
+
