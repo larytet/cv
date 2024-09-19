@@ -26,36 +26,36 @@ experience = [
         "Collaboratively designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
         "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality.",
         "Developed indicators that are a central part of the company's trading algorithms."
-    ], False),
+    ], ['Go', 'Python', "ClickHouse", "SQL"], False),
     ("2022-2023: Software Engineer - HiAuto", [
         "Participated in the maintenance of the computerized drive-thru order-taking system as part of an international team to ensure operational efficiency and reliability.",
         "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
         "Ensured continuous operation of on-premises devices, addressing technical issues promptly."
-    ], False),
+    ], ['Python', "BigQuery", "SQL", "AI"], False),
     ("2018-2022: Software Engineer - Cyren", [
         "Participated in the collaborative design and development of email and network security products, contributing to a increase in threat detection accuracy.",
         "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
         "Developed advanced phishing and spam detection engines.",
         "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
-    ], True),
+    ], ['Go', 'C++', "ElasticSearch", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL"], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
         "Developed a solution to analyze millions of system events per second on multicore systems efficiently.",
         "Supported Windows endpoint software development, including kernel driver and user space code.",
         "Improved data processing performance and developed behavioral models for the security research team."
-    ], False),
+    ], ['Python', 'C/C++', "Linux Kernel", "Windows kernel", "Vertica", "SQL"], False),
     ("2012-2016: Software Engineer - Megabridge", [
         "Developed a video monitoring and control system for HLS, including hardware verification and low-level embedded firmware development.",
         "Designed drivers and significant firmware components for the BDSL product line, including Java-based web management.",
         "Led bring-up projects for various HW platforms, customizing Linux root file systems using Yocto.",
         "Established the company's automatic build infrastructure and continuous integration system."
-    ], False),
+    ], ['C/C++', 'Python', "Linux kernel", "U-boot"], False),
     ("2009-2012: Software Engineer - Texas Instruments", [
         "Developed firmware for 802.11 ASIC, including pre and post-silicon verification of WLAN devices.",
         "Participated in WLAN Linux kernel development and defined/developed utilities for firmware build and debug in Linux.",
         "Led a streamlining process that improved productivity by 30% by advocating the replacement of ClearCase with GIT.",
         "Established a wiki-based search system that improved access to the company's knowledge base."
-    ], False),
+    ], ['C/C++', 'Python', "Linux kernel", "ASIC", "Bare metal"], False),
     # ("2005-2007: Software Engineer - Broadlight Ltd.", [
     #     "Contributed to the development of the world's first fully integrated GPON chip.",
     #     "Supported the hardware team in post-production verification and pre-fab processes.",
@@ -73,10 +73,12 @@ experience = [
     # ], False)
 ]
 
-for position, details, page_break in experience:
+for position, details, technologies, page_break in experience:
     doc.add_heading(position, level=2)
     for detail in details:
         doc.add_paragraph(detail, style='List Bullet')
+    doc.add_heading('Technologies & Programming Languages', level=3)
+    doc.add_paragraph(', '.join(technologies))        
     if page_break:
         doc.add_page_break()
 
