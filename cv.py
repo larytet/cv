@@ -38,7 +38,7 @@ experience = [
         "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
         "Developed advanced phishing and spam detection engines.",
         "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
-    ], ['Go', 'C++', "Python", "ElasticSearch", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker"], True),
+    ], ['Go', 'C++', "Python", "ElasticSearch", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
         "Developed a solution to analyze millions of system events per second on multicore systems efficiently.",
