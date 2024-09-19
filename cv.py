@@ -32,13 +32,13 @@ experience = [
         "Participated in the maintenance of the computerized drive-thru order-taking system as part of an international team to ensure operational efficiency and reliability.",
         "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
         "Ensured continuous operation of on-premises devices, addressing technical issues promptly."
-    ], ['Python', "BigQuery", "SQL", "AI", "k8s", "Azure", "Docker"], False),
+    ], ['Python', "BigQuery", "Redis", "SQL", "AI", "k8s", "Azure", "Docker"], False),
     ("2018-2022: Software Engineer - Cyren", [
         "Participated in the collaborative design and development of email and network security products, contributing to a increase in threat detection accuracy.",
         "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
         "Developed advanced phishing and spam detection engines.",
         "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
-    ], ['Go', 'C++', "Python", "ElasticSearch", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
+    ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
         "Developed a solution to analyze millions of system events per second on multicore systems efficiently.",
