@@ -2,6 +2,7 @@ from docx import Document
 import pypandoc
 from docx2pdf import convert
 
+ADD_TECHOLOGIES = False
 
 # Create a new Document with the updated order
 doc = Document()
@@ -77,8 +78,9 @@ for position, details, technologies, page_break in experience:
     doc.add_heading(position, level=2)
     for detail in details:
         doc.add_paragraph(detail, style='List Bullet')
-    doc.add_heading('Technologies & Programming Languages', level=3)
-    doc.add_paragraph(', '.join(technologies))        
+    if ADD_TECHOLOGIES and technologies:
+        doc.add_heading('Technologies & Programming Languages', level=3)
+        doc.add_paragraph(', '.join(technologies))
     if page_break:
         doc.add_page_break()
 
