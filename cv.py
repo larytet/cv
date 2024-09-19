@@ -26,7 +26,7 @@ experience = [
         "Collaboratively designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
         "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality.",
         "Developed indicators that are a central part of the company's trading algorithms."
-    ], ['Go', 'Python', "ClickHouse", "SQL"], False),
+    ], ['Go', 'Python', "ClickHouse", "SQL", "AI"], False),
     ("2022-2023: Software Engineer - HiAuto", [
         "Participated in the maintenance of the computerized drive-thru order-taking system as part of an international team to ensure operational efficiency and reliability.",
         "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
