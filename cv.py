@@ -44,7 +44,7 @@ experience = [
         "Created a high-performance solution to analyze millions of system events per second on multicore systems.",
         "Contributed to Windows kernel development, including driver code and user space integration for efficient data collection.",
         "Optimized data processing workflows and developed behavioral models in collaboration with the security research team."
-    ], ['Python', 'C/C++', "Linux Kernel", "Windows kernel", "Vertica", "SQL"], False),
+    ], ['Python', 'C/C++', "Linux Kernel", "SystemTap", "eBPF", "Windows kernel", "Vertica", "SQL"], False),
     ("2012-2016: Software Engineer - Megabridge", [
         "Developed a video monitoring and control system for HLS, including hardware verification and low-level embedded firmware development.",
         "Designed drivers and significant firmware components for the BDSL product line, including Java-based web management.",
