@@ -13,7 +13,7 @@ doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 
 doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
 doc.add_paragraph(
-    "Expertise in design and development of mission-critical real-time systems, firmware, embedded systems, multi-threaded applications, automated trading platforms, and web-based applications."
+    "Expertise in design and development of mission-critical real-time systems, firmware, embedded systems, multi-threaded applications, automated trading platforms."
     "Extensive experience in low-level programming, system performance optimization, and hardware-software integration."
     "Strong background in reverse engineering, kernel development, and debugging across diverse platforms."
     "Technology-savvy with a broad business perspective, excellent problem-solving skills, and high attention to detail."
