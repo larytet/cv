@@ -40,10 +40,10 @@ experience = [
         "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
     ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
     ("2016-2018: Software Engineer - Secdo", [
-        "Defined, designed, and developed the Linux endpoint driver, enhancing system performance with minimal impact.",
-        "Developed a solution to analyze millions of system events per second on multicore systems efficiently.",
-        "Supported Windows endpoint software development, including kernel driver and user space code.",
-        "Improved data processing performance and developed behavioral models for the security research team."
+        "Defined, designed, and developed Linux kernel probes using SystemTap and eBPF to monitor user space activity with minimal system impact.",
+        "Created a high-performance solution to analyze millions of system events per second on multicore systems.",
+        "Contributed to Windows kernel development, including driver code and user space integration for efficient data collection.",
+        "Optimized data processing workflows and developed behavioral models in collaboration with the security research team."
     ], ['Python', 'C/C++', "Linux Kernel", "Windows kernel", "Vertica", "SQL"], False),
     ("2012-2016: Software Engineer - Megabridge", [
         "Developed a video monitoring and control system for HLS, including hardware verification and low-level embedded firmware development.",
