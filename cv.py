@@ -17,7 +17,7 @@ doc.add_paragraph(
     "Extensive experience in low-level programming, system performance optimization, and hardware-software integration."
     "Strong background in reverse engineering, kernel development, and debugging across diverse platforms."
     "Technology-savvy with a broad business perspective, excellent problem-solving skills, and high attention to detail."
-    "Tools & Technologies: Linux, Go, Python, C, C++11/14, Assembly, eBPF, RTOS, and embedded architectures."
+    "Tools & Technologies: Linux, Go, Python, C, C++, Assembly, RTOS, embedded architectures."
 )
 
 doc.add_heading('Professional Experience', level=1)
