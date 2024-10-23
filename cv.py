@@ -15,7 +15,7 @@ doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
 if IS_BACKEND:
     doc.add_paragraph(
-        "Extensive experience in designing and developing mission-critical backend systems,  automated trading systems, and multi-threaded applications."
+        "Extensive experience in designing and developing mission-critical backend systems, automated trading systems, and multi-threaded applications."
         "Proficient in optimizing system performance, low-level programming, and integrating hardware with software."
         "Strong expertise in reverse engineering, kernel-level development, and debugging complex backend systems."
         "Technology-focused with a broad business perspective, and exceptional problem-solving abilities"
