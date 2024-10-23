@@ -2,7 +2,8 @@ from docx import Document
 import pypandoc
 from docx2pdf import convert
 
-ADD_TECHOLOGIES = False
+ADD_TECHOLOGIES = True
+IS_BACKEND = True
 
 # Create a new Document with the updated order
 doc = Document()
@@ -12,13 +13,22 @@ doc.add_heading('Arkady Miasnikov', 0)
 doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 
 doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
-doc.add_paragraph(
-    "Expertise in design and development of mission-critical real-time systems, firmware, embedded systems, multi-threaded applications, automated trading platforms."
-    "Extensive experience in low-level programming, system performance optimization, and hardware-software integration."
-    "Strong background in reverse engineering, kernel development, and debugging across diverse platforms."
-    "Technology-savvy with a broad business perspective, excellent problem-solving skills, and high attention to detail."
-    "Tools & Technologies: Linux, Go, Python, C, C++, Assembly, RTOS, embedded architectures."
-)
+if IS_BACKEND:
+    doc.add_paragraph(
+        "Extensive experience in designing and developing mission-critical backend systems,  automated trading systems, and multi-threaded applications."
+        "Proficient in optimizing system performance, low-level programming, and integrating hardware with software."
+        "Strong expertise in reverse engineering, kernel-level development, and debugging complex backend systems."
+        "Technology-focused with a broad business perspective, and exceptional problem-solving abilities"
+        "Tools & Technologies: Linux, Go, Python, C, AWS, k8s, SQL" 
+    )
+else:
+    doc.add_paragraph(
+        "Expertise in design and development of mission-critical real-time systems, firmware, embedded systems, multi-threaded applications, automated trading platforms."
+        "Extensive experience in low-level programming, system performance optimization, and hardware-software integration."
+        "Strong background in reverse engineering, kernel development, and debugging across diverse platforms."
+        "Technology-savvy with a broad business perspective, excellent problem-solving skills, and high attention to detail."
+        "Tools & Technologies: Linux, Go, Python, C, C++, Assembly, RTOS, embedded architectures."
+    )
 
 doc.add_heading('Professional Experience', level=1)
 
