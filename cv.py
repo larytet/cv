@@ -3,7 +3,7 @@ import pypandoc
 from docx2pdf import convert
 
 ADD_TECHOLOGIES = True
-IS_BACKEND = True
+IS_BACKEND = False
 LONG_VERSION = False
 
 # Create a new Document with the updated order
@@ -109,7 +109,8 @@ doc.add_paragraph(
 )
 
 # Save the document
-file_path = './Arkady_Miasnikov_CV_Updated.docx'
+suffix = {False: "_rt", True: ""}[IS_BACKEND]
+file_path = f"./Arkady_Miasnikov_CV_Updated{suffix}.docx"
 doc.save(file_path)
 
 pdf_path = file_path.replace('.docx', '.pdf')
