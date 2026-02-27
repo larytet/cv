@@ -1,3 +1,11 @@
+# Usage
+# python3 -m venv .venv
+# source .venv/bin/activate
+# pip install -r requirements.txt
+# sudo apt-get update
+# sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra
+# python3 cv.py
+
 from docx import Document
 import pypandoc
 from docx2pdf import convert
@@ -16,19 +24,17 @@ doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
 if IS_BACKEND:
     doc.add_paragraph(
-        "Extensive experience in designing and developing mission-critical backend systems, automated trading systems, and multi-threaded applications. "
-        "Proficient in optimizing system performance, low-level programming, and integrating hardware with software. "
-        "Strong expertise in reverse engineering, kernel-level development, and debugging complex backend systems. "
-        "Technology-focused with a broad business perspective, and exceptional problem-solving abilities. "
-        "Tools & Technologies: Linux, Go, Python, C, AWS, k8s, SQL. " 
+        "Backend and distributed-systems engineer with hands-on ownership of trading, security, and data-intensive platforms. "
+        "Strong track record building performance-critical services in Go/Python, optimizing hot paths, and shipping resilient production systems. "
+        "Experienced in cloud-native operations, observability, and cross-functional delivery from design through rollout. "
+        "Tools & Technologies: Linux, Go, Python, C, AWS, Kubernetes, SQL, ClickHouse, Redis, Kafka."
     )
 else:
     doc.add_paragraph(
-        "Expertise in design and development of mission-critical real-time systems, firmware, embedded systems, multi-threaded applications, automated trading platforms. "
-        "Extensive experience in low-level programming, system performance optimization, and hardware-software integration. "
-        "Strong background in reverse engineering, kernel development, and debugging across diverse platforms. "
-        "Technology-savvy with a broad business perspective, excellent problem-solving skills, and high attention to detail. "
-        "Tools & Technologies: Linux, Go, Python, C, C++, Assembly, RTOS, embedded architectures. "
+        "Real-time and embedded software engineer with deep experience across firmware, Linux kernel, BSP/driver development, and hardware-software integration. "
+        "Built and optimized latency-sensitive, multi-threaded systems from bring-up to production support on diverse architectures. "
+        "Strong background in reverse engineering, low-level debugging, and system performance analysis across Linux and Windows kernel environments. "
+        "Tools & Technologies: Linux kernel, C/C++, Python, Go, Assembly, RTOS, Yocto, U-Boot, eBPF/SystemTap."
     )
 
 doc.add_heading('Professional Experience', level=1)
@@ -36,38 +42,38 @@ doc.add_heading('Professional Experience', level=1)
 # Add the remaining experience
 experience = [
     ("2023-present: Software Engineer - Endotech", [
-        "Collaboratively designed and developed custom momentum indicators and signal filters for specific market conditions, enhancing trading performance.",
-        "Translated and customized multiple indicators from PineScript to Go, improving their efficiency and functionality.",
-        "Developed indicators that are a central part of the company's trading algorithms."
+        "Designed and implemented custom momentum indicators and market-condition filters used in production trading strategies.",
+        "Ported and optimized multiple indicators from PineScript to Go to improve runtime efficiency and maintainability.",
+        "Delivered reusable signal components that became core building blocks in the company's algorithmic trading stack."
     ], ['Go', 'Python', "ClickHouse", "SQL", "AI"], False),
     ("2022-2023: Software Engineer - HiAuto", [
-        "Participated in the maintenance of the computerized drive-thru order-taking system as part of an international team to ensure operational efficiency and reliability.",
-        "Enhanced business analytics tools by integrating data and troubleshooting systems, improving decision-making processes.",
-        "Ensured continuous operation of on-premises devices, addressing technical issues promptly."
+        "Maintained and improved a computerized drive-thru order-taking platform in a distributed international engineering team.",
+        "Integrated operational data into analytics workflows and resolved data quality/system issues to improve business visibility.",
+        "Supported continuous operation of on-premises devices through proactive troubleshooting and incident resolution."
     ], ['Python', "BigQuery", "Redis", "SQL", "AI", "k8s", "Azure", "Docker"], False),
     ("2018-2022: Software Engineer - Cyren", [
-        "Participated in the collaborative design and development of email and network security products, contributing to a increase in threat detection accuracy.",
-        "Maintained a complex SaaS system, integrating a range of popular software products seamlessly.",
-        "Developed advanced phishing and spam detection engines.",
-        "Initiated and prepared multiple POCs, including headless browsers, image recognition services, fast Hamming distance calculations, and locality-sensitive hashing."
+        "Designed and developed core components of email and network security products, improving threat detection quality.",
+        "Maintained and evolved a complex SaaS platform with integrations across multiple internal and third-party services.",
+        "Built phishing and spam detection engines used in production security pipelines.",
+        "Drove technical POCs including headless browser analysis, image-recognition services, fast Hamming-distance processing, and locality-sensitive hashing."
     ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
     ("2016-2018: Software Engineer - Secdo", [
-        "Defined, designed, and developed Linux kernel probes using SystemTap and eBPF to monitor user space activity with minimal system impact.",
-        "Created a high-performance solution to analyze millions of system events per second on multicore systems.",
-        "Contributed to Windows kernel development, including driver code and user space integration for efficient data collection.",
-        "Optimized data processing workflows and developed behavioral models in collaboration with the security research team."
+        "Defined and implemented Linux kernel probes with SystemTap and eBPF to monitor user-space activity with minimal overhead.",
+        "Built a high-throughput pipeline that analyzed millions of system events per second on multicore environments.",
+        "Implemented Windows kernel and driver-side collection components with user-space integration for efficient telemetry ingestion.",
+        "Optimized detection data-processing workflows and developed behavioral models with the security research team."
     ], ['Python', 'C/C++', "Linux Kernel", "SystemTap", "eBPF", "Windows kernel", "Vertica", "SQL"], False),
     ("2012-2016: Software Engineer - Megabridge", [
-        "Developed a video monitoring and control system for HLS, including hardware verification and low-level embedded firmware development.",
-        "Designed drivers and significant firmware components for the BDSL product line, including Java-based web management.",
-        "Led bring-up projects for various HW platforms, customizing Linux root file systems using Yocto.",
-        "Established the company's automatic build infrastructure and continuous integration system."
+        "Developed HLS video monitoring/control systems, including hardware verification and low-level embedded firmware.",
+        "Designed device drivers and major firmware components for the BDSL product line, including Java-based management interfaces.",
+        "Led hardware bring-up for multiple platforms and customized Linux root filesystems with Yocto.",
+        "Established automated build infrastructure and CI processes for faster, repeatable delivery."
     ], ['C/C++', 'Python', "Linux kernel", "U-boot"], False),
     ("2009-2012: Software Engineer - Texas Instruments", [
-        "Developed firmware for 802.11 ASIC, including pre and post-silicon verification of WLAN devices.",
-        "Participated in WLAN Linux kernel development and defined/developed utilities for firmware build and debug in Linux.",
-        "Led a streamlining process that improved productivity by 30% by advocating the replacement of ClearCase with GIT.",
-        "Established a wiki-based search system that improved access to the company's knowledge base."
+        "Developed firmware for 802.11 ASIC programs, including pre- and post-silicon verification of WLAN devices.",
+        "Contributed to WLAN Linux kernel development and built utilities for firmware build/debug workflows.",
+        "Led migration from ClearCase to Git, improving engineering productivity by 30%.",
+        "Built an internal wiki-based search system that improved discoverability of engineering knowledge."
     ], ['C/C++', 'Python', "Linux kernel", "ASIC", "Bare metal"], False),
 ]
 
@@ -102,11 +108,9 @@ for position, details, technologies, page_break in experience:
         doc.add_page_break()
 
 doc.add_heading('Education', level=1)
-doc.add_paragraph(
-    'B.A. in Business Administration - Netanya Academic College (2007-2009)\n'
-    'Software Practical Engineer - Tel Aviv University School of Practical Engineering\n'
-    'Physics Department - St. Petersburg State University (1987-1989)'
-)
+doc.add_paragraph('B.A. in Business Administration - Netanya Academic College (2007-2009)')
+doc.add_paragraph('Software Practical Engineer - Tel Aviv University School of Practical Engineering')
+doc.add_paragraph('Physics Department - St. Petersburg State University (1987-1989)')
 
 # Save the document
 suffix = {False: "_rt", True: ""}[IS_BACKEND]
@@ -114,16 +118,24 @@ file_path = f"./Arkady_Miasnikov_CV_Updated{suffix}.docx"
 doc.save(file_path)
 
 pdf_path = file_path.replace('.docx', '.pdf')
-pypandoc.convert_file(
-    file_path,
-    'pdf',
-    outputfile=pdf_path,
-    extra_args=[
-       '-V', 'geometry:top=0.5in',
-       '-V', 'geometry:bottom=1in',
-       '-V', 'geometry:left=1in',  
-       '-V', 'geometry:right=1in'  
-    ]
-)
+try:
+    pypandoc.convert_file(
+        file_path,
+        'pdf',
+        outputfile=pdf_path,
+        extra_args=[
+           '-V', 'geometry:top=0.5in',
+           '-V', 'geometry:bottom=1in',
+           '-V', 'geometry:left=1in',
+           '-V', 'geometry:right=1in'
+        ]
+    )
+except RuntimeError as e:
+    print(f"DOCX generated: {file_path}")
+    print("PDF generation failed.")
+    print("Install missing LaTeX packages and rerun:")
+    print("  sudo apt-get update")
+    print("  sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra")
+    raise
 
 file_path
