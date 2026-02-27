@@ -5,7 +5,6 @@
 # sudo apt-get update
 # sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra
 # python3 cv.py
-
 from docx import Document
 import pypandoc
 from docx2pdf import convert
