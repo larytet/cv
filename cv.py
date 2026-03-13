@@ -10,7 +10,7 @@ import pypandoc
 from docx2pdf import convert
 
 ADD_TECHOLOGIES = True
-IS_BACKEND = False
+IS_BACKEND = True
 LONG_VERSION = False
 
 # Create a new Document with the updated order
