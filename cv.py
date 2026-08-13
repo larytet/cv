@@ -20,7 +20,7 @@ doc = Document()
 doc.add_heading('Arkady Miasnikov', 0)
 doc.add_paragraph('(054) 4681517 | arkady.miasnikov@gmail.com')
 
-doc.add_heading('Software Engineer experienced in leading development projects from inception to full implementation', level=1)
+doc.add_heading('Backend and systems engineer — trading, security, and data infrastructure', level=1)
 if IS_BACKEND:
     doc.add_paragraph(
         "Backend and distributed-systems engineer with hands-on ownership of trading, security, and data-intensive platforms. "
