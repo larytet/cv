@@ -47,6 +47,8 @@ experience = [
         "Added Python linter, JS/TS linter, and Django DB migration check jobs to the GitLab CI pipeline - all self-initiated and self-delivered.",
         "Contributed to automatic liquidation flow (EMS) and Django version migrations across multiple services.",
         "Drove internal adoption of AI coding tools - established KPI tracking of AI contribution to MRs (later adopted org-wide as a project metric).",
+        "Instrumented the management service with OpenTelemetry counters and StatsD metrics (trading commands, firm stop, locates, cancel orders, position adjustments) and built the corresponding Grafana dashboard for production visibility.",
+        "Integrated ClearStreet as the primary broker/clearing firm: implemented BOD file ingestion via SFTP, easy-to-borrow data sync (with Curvature/Velocity as secondary sources), locates pipeline, and overnight financing report - covering the full daily settlement cycle.",
     ], ['Python', 'Django', 'FastAPI', 'Kubernetes', 'Kafka', 'Redis', 'Elasticsearch', 'Airflow', 'GitLab CI', 'PostgreSQL'], False),
     ("2023-present: Software Engineer - Endotech", [
         "Designed and implemented custom momentum indicators and market-condition filters used in production trading strategies.",
