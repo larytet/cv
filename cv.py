@@ -41,7 +41,7 @@ doc.add_heading('Professional Experience', level=1)
 # Add the remaining experience
 experience = [
     ("2023-present: Software Engineer - qSpark (HFT trading platform)", [
-        "Maintained and extended a mid-size Django/FastAPI backend serving US regulatory requirements; on-call shifts included diagnosing and fixing legacy code issues in real time under pressure, including direct SQL patches to production data during live incidents.",
+        "Maintained and extended a mid-size Django/FastAPI backend serving US regulatory requirements; on-call shifts included diagnosing and fixing legacy code issues in real time under pressure, including patching both code and data in production during live incidents.",
         "Rebuilt the end-to-end (e2e) test harness from scratch - now the primary validation layer for AI-generated trading components. Designed for maximum parallel execution of real trading flows against a live Kubernetes stack.",
         "Conceived and implemented an Airflow-based log anomaly detector (Markov fuzzing + Jaccard clustering) that surfaces noisy warning/error pattern shifts across production logs - praised internally and recognized as a significant observability contribution.",
         "Added Python linter, JS/TS linter, and Django DB migration check jobs to the GitLab CI pipeline - all self-initiated and self-delivered.",
