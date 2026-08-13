@@ -54,11 +54,12 @@ experience = [
         "Designed and developed core components of email and network security products, improving threat detection quality.",
         "Maintained and evolved a complex SaaS platform with integrations across multiple internal and third-party services.",
         "Built phishing and spam detection engines used in production security pipelines.",
-        "Drove technical POCs including headless browser analysis, image-recognition services, fast Hamming-distance processing, and locality-sensitive hashing."
+        "Drove technical POCs including headless browser analysis, image-recognition services, fast Hamming-distance processing, and locality-sensitive hashing.",
+        "Contributed to a security pipeline processing 50M+ emails/day (~250 TB/day)."
     ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined and implemented Linux kernel probes with SystemTap and eBPF to monitor user-space activity with minimal overhead.",
-        "Built a high-throughput pipeline that analyzed millions of system events per second on multicore environments.",
+        "Built kernel-to-cloud telemetry pipeline (eBPF/SystemTap → Kafka → Vertica) handling hundreds of millions of system events/second across multi-node enterprise environments.",
         "Implemented Windows kernel and driver-side collection components with user-space integration for efficient telemetry ingestion.",
         "Optimized detection data-processing workflows and developed behavioral models with the security research team."
     ], ['Python', 'C/C++', "Linux Kernel", "SystemTap", "eBPF", "Windows kernel", "Vertica", "SQL"], False),
