@@ -40,6 +40,14 @@ doc.add_heading('Professional Experience', level=1)
 
 # Add the remaining experience
 experience = [
+    ("2023-present: Software Engineer - qSpark (HFT trading platform)", [
+        "Maintained and extended a mid-size Django/FastAPI backend serving US regulatory requirements, production incident response, and on-call operations.",
+        "Rebuilt the end-to-end (e2e) test harness from scratch - now the primary validation layer for AI-generated trading components. Designed for maximum parallel execution of real trading flows against a live Kubernetes stack.",
+        "Conceived and implemented an Airflow-based log anomaly detector (Markov fuzzing + Jaccard clustering) that surfaces noisy warning/error pattern shifts across production logs - praised internally and recognized as a significant observability contribution.",
+        "Added Python linter, JS/TS linter, and Django DB migration check jobs to the GitLab CI pipeline - all self-initiated and self-delivered.",
+        "Contributed to automatic liquidation flow (EMS) and Django version migrations across multiple services.",
+        "Drove internal adoption of AI coding tools - established KPI tracking of AI contribution to MRs (later adopted org-wide as a project metric).",
+    ], ['Python', 'Django', 'FastAPI', 'Kubernetes', 'Kafka', 'Redis', 'Elasticsearch', 'Airflow', 'GitLab CI', 'PostgreSQL'], False),
     ("2023-present: Software Engineer - Endotech", [
         "Designed and implemented custom momentum indicators and market-condition filters used in production trading strategies.",
         "Ported and optimized multiple indicators from PineScript to Go to improve runtime efficiency and maintainability.",
