@@ -40,7 +40,7 @@ doc.add_heading('Professional Experience', level=1)
 
 # Add the remaining experience
 experience = [
-    ("2023-present: Software Engineer - qSpark (HFT trading platform)", [
+    ("2024-present: Software Engineer - qSpark (HFT trading platform)", [
         "Maintained and extended a mid-size Django/FastAPI backend serving US regulatory requirements; on-call shifts included diagnosing and fixing legacy code issues in real time under pressure, including patching both code and data in production during live incidents.",
         "Rebuilt the end-to-end (e2e) test harness from scratch - now the primary validation layer for AI-generated trading components. Designed for maximum parallel execution of real trading flows against a live Kubernetes stack.",
         "Conceived and implemented an Airflow-based log anomaly detector (Markov fuzzing + Jaccard clustering) that surfaces noisy warning/error pattern shifts across production logs - praised internally and recognized as a significant observability contribution.",
@@ -54,19 +54,19 @@ experience = [
         "Designed and implemented custom momentum indicators and market-condition filters used in production trading strategies.",
         "Ported and optimized multiple indicators from PineScript to Go to improve runtime efficiency and maintainability.",
         "Delivered reusable signal components that became core building blocks in the company's algorithmic trading stack."
-    ], ['Go', 'Python', "ClickHouse", "SQL", "AI"], False),
+    ], ['Go', 'Python', "ClickHouse", "SQL"], False),
     ("2022-2023: Software Engineer - HiAuto", [
         "Maintained and improved a computerized drive-thru order-taking platform in a distributed international engineering team.",
         "Integrated operational data into analytics workflows and resolved data quality/system issues to improve business visibility.",
         "Supported continuous operation of on-premises devices through proactive troubleshooting and incident resolution."
-    ], ['Python', "BigQuery", "Redis", "SQL", "AI", "k8s", "Azure", "Docker"], False),
+    ], ['Python', "BigQuery", "Redis", "SQL", "k8s", "Azure", "Docker"], False),
     ("2018-2022: Software Engineer - Cyren", [
         "Designed and developed core components of email and network security products, improving threat detection quality.",
         "Maintained and evolved a complex SaaS platform with integrations across multiple internal and third-party services.",
         "Built phishing and spam detection engines used in production security pipelines.",
         "Drove technical POCs including headless browser analysis, image-recognition services, fast Hamming-distance processing, and locality-sensitive hashing.",
         "Contributed to a security pipeline processing 50M+ emails/day (~250 TB/day)."
-    ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "AI"], True),
+    ], ['Go', 'C++', "Python", "ElasticSearch", "Redis", "Apache Kafka", "Prometheus", "Grafana", "Kibana", "Megalog", "Jaeger", "SQL", "k8s", "AWS", "Docker", "ML"], True),
     ("2016-2018: Software Engineer - Secdo", [
         "Defined and implemented Linux kernel probes with SystemTap and eBPF to monitor user-space activity with minimal overhead.",
         "Built kernel-to-cloud telemetry pipeline (eBPF/SystemTap → Kafka → Vertica) handling hundreds of millions of system events/second across multi-node enterprise environments.",
