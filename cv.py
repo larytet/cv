@@ -43,10 +43,9 @@ experience = [
     ("2024-present: Software Engineer - qSpark (HFT trading platform)", [
         "Conceived and implemented an Airflow-based log anomaly detector (Markov fuzzing + Jaccard clustering) that surfaces noisy warning/error pattern shifts across production logs - recognized as a significant observability contribution.",
         "Rebuilt the end-to-end (e2e) test harness from scratch - now the primary validation layer for AI-generated trading components. Designed for maximum parallel execution of real trading flows against a live Kubernetes stack.",
-        "Instrumented the management service with OpenTelemetry counters and StatsD metrics (trading commands, firm stop, locates, cancel orders, position adjustments) and built the corresponding Grafana dashboard for production visibility.",
+        "Instrumented the management service with OpenTelemetry/StatsD metrics and built the corresponding Grafana dashboard; extended the automatic liquidation flow (EMS) and drove Django version migrations across multiple services.",
         "Onboarded Curvature as a new locate/easy-to-borrow data provider alongside the existing ClearStreet integration; extended the BOD pipeline, locates processing, and overnight financing report to handle multiple broker data sources.",
         "Owned backend services for US regulatory compliance across the Django/FastAPI stack; on-call included live production patching under pressure.",
-        "Extended the automatic liquidation flow (EMS) and drove Django version migrations across multiple services.",
         "Added Python linter, JS/TS linter, and Django DB migration check jobs to the GitLab CI pipeline - all self-initiated and self-delivered.",
         "Established KPI tracking of AI coding tool contribution to MRs, later adopted org-wide as a project metric.",
     ], ['Python', 'Django', 'FastAPI', 'Kubernetes', 'Kafka', 'Redis', 'Elasticsearch', 'Airflow', 'GitLab CI', 'PostgreSQL'], False),
